@@ -1,25 +1,32 @@
 div{
-  width:100px;
-  height:100px;
+  width:200px;
+  height:200px;
   border:1px solid red;
+  background:no-repeat center/80% url("beer.jpeg");
 }
 img{
   border:20px groove orange;
+  border-radius: : 100%;
 }
 .onebeer{
   border:20px groove blue;
+  border-radius: 100%;
 }
 .twobeer{
   border:20px groove yellow;
+  border-radius: 300px;
 
 }
 .threebeer{
   border:20px groove green;
+  border-radius: 30px;
 }
 .fourbeer{
   border:20px groove purple;
+  border-radius: 30px;
 
 }
 .fivebeer{
   border:20px groove red;
+  border-radius:  30px;
 }
