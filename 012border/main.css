@@ -1,0 +1,25 @@
+div{
+  width:100px;
+  height:100px;
+  border:1px solid red;
+}
+img{
+  border:20px groove orange;
+}
+.onebeer{
+  border:20px groove blue;
+}
+.twobeer{
+  border:20px groove yellow;
+
+}
+.threebeer{
+  border:20px groove green;
+}
+.fourbeer{
+  border:20px groove purple;
+
+}
+.fivebeer{
+  border:20px groove red;
+}
