@@ -1,0 +1,11 @@
+div{width:150px;
+height:150px;
+padding:20px;
+margin:40px;
+border:10px groove orange ;
+box-sizing: border-box;}
+
+/* box sizing property either border box or content box
+border box value ex 100px includes content,border,padding,margin
+content box value ex 100px includes content box only
+box model is content box,border box, padding box,margin box */
