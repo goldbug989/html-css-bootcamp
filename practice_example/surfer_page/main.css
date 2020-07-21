@@ -1,0 +1,35 @@
+html{
+  background-color:blue;
+}
+body{
+  width: 60%;
+  margin: 0 auto;
+  background-color: green;
+  border: 5px solid black;
+
+}
+.even{color:red;}
+
+div{
+  padding:5px;
+  margin:0 auto;
+  border: 10px solid black;
+
+
+}
+img{
+  width:60%;
+  margin:5% auto;
+  border:20px groove yellow;
+  border-radius:100%;
+  display:block;
+}
+h1{
+  color:blue;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+p{
+  margin-left:10%;
+  margin-right: 10%;
+}
