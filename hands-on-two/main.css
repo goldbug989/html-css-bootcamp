@@ -1,0 +1,33 @@
+div{
+  width:100px;
+  height:100px;
+  background-color:blue;
+}
+.two{
+  width:100px;
+  height:100px;
+  background-color:blue;
+  border-radius:20%;
+}
+.three{
+  width:100px;
+  height:100px;
+  background-image:url("https://upload.wikimedia.org/wikiped0ia/commons/thumb/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg/220px-Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg");
+  /* background:blue; */
+  background-size:cover;
+  background-repeat:no-no-repeat;
+  border: groove red 20px;
+}
+.four{
+  width:400px;
+  height:200px;
+  border:10px dashed red;
+  margin:10px auto;
+}
+.five{
+  width:400px;
+  height:200px;
+  border:10px dashed red;
+  margin:10px auto;
+  box-sizing:border-box;
+}

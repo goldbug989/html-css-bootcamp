@@ -1,0 +1,9 @@
+.emphasize{
+  font-weight:bold;
+}
+#prose{
+  font-style:italic;
+}
+[contenteditable]{
+  font-family:cursive;
+}
