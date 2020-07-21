@@ -1,0 +1,26 @@
+
+/* all p tags within a div */
+
+/* div p{
+  color:red;
+} */
+
+
+/* all p tags immediate children of div */
+
+/* div>p{
+  color:red;
+} */
+
+
+ /* all p tags that are a sibling following a div */
+
+ div ~ p{
+  color:red;
+}
+
+/* first p tags that are a sibling following a div */
+
+/* div + p{
+ color:red;
+} */

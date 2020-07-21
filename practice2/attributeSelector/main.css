@@ -1,0 +1,8 @@
+a{
+  display:block;
+  padding:20px;
+}
+a[target]{
+  border:5px solid red;
+  padding:10px;
+}

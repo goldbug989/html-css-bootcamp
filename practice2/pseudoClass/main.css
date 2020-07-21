@@ -1,0 +1,20 @@
+
+/* pseudo classes */
+a:link{color:red;}
+a:visited{color:green;}
+a:hover{color:purple;}
+a:active{color:yellow;}
+
+p{
+  padding-left:40%;
+  padding-right:40%;
+}
+
+p::first-letter{
+  font-size:30px;
+}
+
+p::first-line{
+  font-family:cursive;
+  font-weight: bold;
+}
