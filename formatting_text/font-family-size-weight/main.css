@@ -1,0 +1,33 @@
+body{
+  margin-left: 30%;
+  margin-right:30%;
+}
+h1{
+  font-family: sans-serif;
+}
+h2{
+  font-family: serif;
+}
+h3{
+  font-family:monospace;
+}
+/* set multiple fonts with the last one being a basic for fallback font */
+h4{
+  font-family:bitstream,sans-serif;
+}
+/* rem is great to use because its relative to root */
+
+p{
+  margin-left:30%;
+  margin-right:30%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.tworem{
+  font-size: 2rem;
+  font-weight: normal;
+}
+.threerem{
+  font-size: 3rem;
+  font-style:italic;
+}
