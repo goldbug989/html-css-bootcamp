@@ -22,12 +22,18 @@ p{
   margin-right:30%;
   font-size: 1rem;
   font-weight: bold;
+  line-height: 2rem;
 }
 .tworem{
   font-size: 2rem;
   font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  /* font-variant: small-caps; */
 }
 .threerem{
   font-size: 3rem;
   font-style:italic;
+  line-height: 3rem;
+  text-transform: capitalize;
+  color:#E88181;
 }
