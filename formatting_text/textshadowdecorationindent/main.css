@@ -1,0 +1,17 @@
+html{
+  background-color: blue;
+}
+body{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+p{
+  color:white;
+}
+.narrow{
+  margin-left:10%;
+  margin-right:10%;
+  font-size:2em;
+  text-shadow:2px 2px 2px red;
+  text-align:justify;
+}
