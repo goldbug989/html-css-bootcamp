@@ -7,11 +7,25 @@ body{
 }
 p{
   color:white;
+  text-indent:20px;
 }
+p::first-letter{
+  font-size:150%;
+}
+
 .narrow{
   margin-left:10%;
   margin-right:10%;
   font-size:2em;
   text-shadow:2px 2px 2px red;
   text-align:justify;
+}
+#underline{
+  text-decoration: underline;
+  /* this colors the decoration not the text
+    text-decoration-color: yellow; */
+}
+.highlight{
+color:black;
+background-color:yellow;
 }
