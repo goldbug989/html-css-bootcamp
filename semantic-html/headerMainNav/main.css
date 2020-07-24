@@ -1,0 +1,48 @@
+html{
+margin-left:30%;
+margin-right:30%;
+
+}
+header{
+
+}
+nav{
+  margin: 0 auto;
+  text-align:center;
+}
+h1{
+  font-style: italic;
+  text-align: center;
+}
+li{
+
+  border: 1px solid blue;
+  display:inline-grid;
+  background-color:blue;
+}
+p{
+  font-family:sans-serif;
+  padding-left:30%;
+  padding-right:30%;
+}
+p::first-letter{
+  font-size:150%;
+}
+aside {
+    width: 30%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+a{
+  color:white;
+  text-decoration: none;
+  padding: 8px;
+}
