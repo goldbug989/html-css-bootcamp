@@ -1,0 +1,14 @@
+li{
+
+  display:inline-block;
+}
+a{
+  border-radius:20px;
+  text-decoration: none;
+  background-color:blue;
+  color:white;
+  padding:10px;
+}
+a:hover{
+  background-color:lime ;
+}
