@@ -1,0 +1,29 @@
+div{
+  /* width:100px; */
+  /* height:100px; */
+  background-color:yellow;
+  border:2px solid blue;
+  flex-grow:1;
+}
+header{
+  display:flex;
+
+  justify-content:space-around;
+
+  /* flex wrap , nowrap default ,nowrap, wrap-reverse */
+  flex-wrap:wrap;
+
+
+  /* default flex-direction :row can be column ,row-reverse,col reverse */
+  /* flex-direction:row; this propperty sets the main axis row or col */
+
+  align-content:center;
+
+
+  /* default settings below
+  flex-direction:row;
+  flex-wrap: nowrap; */
+}
+#grow{
+  flex-grow: 6;
+}
