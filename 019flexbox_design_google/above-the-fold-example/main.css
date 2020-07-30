@@ -1,0 +1,26 @@
+html,div,body{
+  padding:0;
+  border:0;
+  margin:0;
+  box-sizing: border-box;
+}
+div{
+  display:flex;
+  justify-content: center;
+  /* no flex flow req'd using default */
+
+  align-items: center;
+  /* here is the trick for above the fold use viewport height, vh */
+  height:100vh;
+  background-image:url("https://images-na.ssl-images-amazon.com/images/I/91Z4DDQCYUL._AC_SL1500_.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  border:10px solid red;
+}
+
+p{
+  font-size: 8rem;
+  font-style: italic;
+  color:whitesmoke;
+  text-align: center;
+}
