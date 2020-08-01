@@ -1,0 +1,26 @@
+div{
+  box-sizing: border-box;
+  padding:5px;
+
+}
+#left{
+  width:200px;
+  height:200px;
+  margin:3px;
+  float:left;
+  border:1px solid red;
+  background-color:pink;
+}
+#right{
+  width:200px;
+  height:100px;
+  margin:3px;
+  float:right;
+  border:1px solid blue;
+  background-color:lightblue;
+  overflow:auto;
+}
+#clear{
+  border:2px solid green;
+  clear:both;
+}

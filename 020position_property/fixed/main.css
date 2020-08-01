@@ -1,0 +1,35 @@
+div{
+  border-radius:5px;
+}
+#one{
+  margin-left:50px;
+
+  height:2500px;
+  width:150px;
+  background-color:#66fff7;
+  border: 4px dashed red;
+}
+#two{
+  /* as the page scrolls this element stays fixed on page */
+  position:fixed;
+
+  /* position relative */
+  /* relative to itself...the element is moved(top,left,etc) from where it should be in dom */
+  /* position:relative; */
+
+
+  top:200px;
+  left:10px;
+  height:300px;
+  width:75px;
+  background-color:#547980;
+  border:2px solid black;
+}
+#three{
+  /* position absolute in relationship to the next element up the dom that also has position property set */
+  position:absolute;
+  top:250px;
+  left:100px;
+  border:2 px dashed blue;
+  background-color: hotpink;
+}

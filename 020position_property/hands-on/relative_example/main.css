@@ -1,0 +1,13 @@
+div{
+  width:100px;
+  height:100px;
+  background-color:hotpink;
+  border:1px solid red;
+}
+/* will move div based off where it should be */
+/* relative is relative to itself */
+#relative{
+  position:relative;
+  left:20px;
+  top:10px;
+}
