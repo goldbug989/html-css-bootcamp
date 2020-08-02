@@ -1,0 +1,15 @@
+body{
+  padding:0;
+  border:0;
+  margin:0
+}
+div{
+  height:400px;
+  width:400px;
+  border: 20px groove orange;
+  background-image:url("dog.png");
+  background-repeat:no-repeat;
+  /* cover covers the div , contain image is contained in element */
+  /* background-size:cover; */
+  background-size:contain;
+}

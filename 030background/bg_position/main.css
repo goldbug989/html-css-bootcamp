@@ -1,0 +1,16 @@
+body{
+  padding:0;
+  border:0;
+  margin:0
+}
+div{
+  height:400px;
+  width:400px;
+  border: 20px groove orange;
+  background-image:url("dog.png");
+  background-repeat:no-repeat;
+  /* set x and y axis value or use center , right, left */
+  background-position:200px 300px;
+
+
+}

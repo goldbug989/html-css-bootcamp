@@ -1,0 +1,16 @@
+body{
+  padding:0;
+  border:0;
+  margin:0
+}
+body{
+  display:flex;
+/* repeat default is to repeat along x and y axis */
+
+  background-image: url("dog.png");
+  /* y will repeat along y axis */
+  background-repeat: repeat-y;
+
+/* x will repeat along x axis */
+  background-repeat: repeat-x;
+}
