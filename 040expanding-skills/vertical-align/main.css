@@ -1,0 +1,30 @@
+html,body{
+  border:0;
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border:3px solid red;
+}
+div{
+  width:70%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border:3px solid hotpink;
+}
+p{
+  font-size:5rem;
+  text-transform: uppercase;
+  border:1px solid black;
+}
+span{
+  vertical-align: 40px;
+  background-color: blue;
+  color:whitesmoke;
+}
