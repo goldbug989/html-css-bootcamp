@@ -1,0 +1,49 @@
+#idx-atf{
+  background-image:url("background-photo.jpg");
+}
+#idx-atf>div{
+      height: 20vh;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+h3{
+  margin-top:.2rem;
+}
+header div, header nav{
+  /* display:inline-block; */
+  width:15%;
+  height:80%;
+  margin:0 1rem;
+  /* background-color:red; */
+}
+header{
+  /* border:1px solid white; */
+
+  justify-content: space-between;
+
+
+}
+header nav{
+  /* display:inline-block; */
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  /* border:1px solid yellow; */
+  width:30%;
+  height:80%;
+  margin:0 .1rem;
+  /* background-color:red; */
+}
+header div a{
+  /* border:1px solid pink; */
+  display:flex;
+  align-items:center;
+
+}
+div a #icon{
+  display:inline-block;
+  color:currentColor;
+}
