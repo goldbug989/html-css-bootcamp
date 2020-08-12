@@ -47,3 +47,6 @@ div a #icon{
   display:inline-block;
   color:currentColor;
 }
+footer{
+  display:none;
+}

@@ -89,6 +89,40 @@ nav{
 } */
 
 
+footer{
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: center;
+  align-items: center;
+  height:200px;
+  background-color:#39a6d8;
+}
+footer nav{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border:1px solid red; */
+  width:100%;
+}
+
+footer nav a{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content: flex-start;
+  align-items:center;
+  padding-left:40%;
+  height:50px;
+  width:100%;
+  border-top:1px solid whitesmoke;
+  /* border:1px solid yellow; */
+
+}
+footer nav a svg{
+  display:block;
+  margin-right:10px;
+}
 
 
 #idx-atf {
