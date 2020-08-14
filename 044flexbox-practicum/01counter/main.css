@@ -4,30 +4,37 @@ html, body{
   border:0;
   box-sizing:border-box;
 }
+
+#atf{
+  height:100vh;
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: center;
+  align-items: center;
+}
 section{
-  margin:100px 100px;
   display:flex;
   flex-direction:row;
   flex-wrap:nowrap;
   justify-content: center;
   align-items: center;
-  width:10%;
-
-
+  height:5rem;
+  width:19rem;
+  font-size:3vw;
 }
 section div{
-  display:inline-block;
-  padding-top:10px;
-  font-size:1rem;
-  height:30px;
-  width:60%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow:2;
   text-align:center;
-
   border:1px solid gray;
 
 
 }
 #minus{
+  cursor:pointer;
+  flex-grow:1;
   background-color:gray;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -35,11 +42,18 @@ section div{
   width:20%;
 
 }
+
 #plus{
+  cursor:pointer;
+  flex-grow:1;
   background-color:gray;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   color:whitesmoke;
   width:20%;
 
+}
+
+#minus:hover,#plus:hover{
+  background-color:blue;
 }

@@ -1,0 +1,81 @@
+html,body,div{
+  border:0;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+#atf{
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: space-between;
+  height:100vh;
+  font-size:1.5rem;
+
+}
+#atf header{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  flex-flow:row nowrap;
+  height:8%;
+  background-color:gray;
+  color:whitesmoke;
+  padding:0 2% 0 2%;
+}
+#atf header nav{
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: space-between;
+  align-items:center;
+  width:40%;
+}
+header nav a{
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding:0 1rem 0 1rem;
+  text-decoration: none;
+  color:whitesmoke;
+}
+
+header nav a svg{
+  display:block;
+  width:2rem;
+  height:2rem;
+  fill:whitesmoke;
+
+}
+header nav a svg:hover{
+  cursor:pointer;
+  fill:lightblue;
+}
+header a{
+  text-decoration:none;
+  color:whitesmoke;
+}
+header nav a{
+  cursor:pointer;
+  color:white;
+}
+header nav a:hover{
+  color:lightblue;
+}
+header a:hover{
+  color:lightblue;
+}
+
+#hero{
+  display:block;
+  fill:pink;
+  height:45%;
+}
+
+#atf footer{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height:30%;
+  font-size:4rem;
+  color:gray;
+}
