@@ -119,6 +119,10 @@ footer nav a{
   /* border:1px solid yellow; */
 
 }
+footer nav a:last-child{
+  border-bottom:1px solid whitesmoke;  
+
+}
 footer nav a svg{
   display:block;
   margin-right:10px;
