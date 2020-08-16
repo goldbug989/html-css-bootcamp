@@ -1,0 +1,33 @@
+html, body{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  color:red;
+  font-size:4vw;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:flex-start;
+  align-items:center;
+}
+svg{
+  fill:green;
+}
+
+
+.circle{
+  position:relative;
+  left:0;
+  animation-name:moveCircle;
+  animation-duration:2s;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-play-state: running;
+}
+@keyframes moveCircle{
+  0% {left:0;}
+  100% {left:75%;}
+}

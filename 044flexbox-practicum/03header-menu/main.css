@@ -67,15 +67,19 @@ header a:hover{
 
 #hero{
   display:block;
-  fill:pink;
-  height:45%;
+  padding:100px 0 0 0;
+  fill:hsla(320, 100%, 61%, 0.9);
+  height:40%;
+  /* border:1px solid green; */
 }
 
 #atf footer{
   display:flex;
   justify-content: center;
   align-items:center;
-  height:30%;
-  font-size:4rem;
+  padding-bottom:100px;
+  height:40%;
+  font-size:5rem;
   color:gray;
+  /* border:1px solid blue; */
 }

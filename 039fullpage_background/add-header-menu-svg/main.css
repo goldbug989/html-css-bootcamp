@@ -3,8 +3,10 @@ html {
     color: whitesmoke;
     box-sizing:border-box;
 }
-body{
-
+.trans{
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
 }
 header{
   /* border:1px solid white; */
@@ -36,6 +38,7 @@ svg{
   /* border:1px solid white; */
 }
 nav a{
+  border-radius:5px;
   padding:.3rem .4rem;
 }
 nav a:hover{
@@ -65,6 +68,7 @@ header nav{
 }
 header div a{
   /* border:1px solid pink; */
+  border-radius: 5px;
   display:flex;
   align-items:center;
 
@@ -120,7 +124,7 @@ footer nav a{
 
 }
 footer nav a:last-child{
-  border-bottom:1px solid whitesmoke;  
+  border-bottom:1px solid whitesmoke;
 
 }
 footer nav a svg{
