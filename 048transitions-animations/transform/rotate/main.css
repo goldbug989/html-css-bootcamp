@@ -1,0 +1,55 @@
+html,body{
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+}
+body{
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  height:100vh;
+}
+figure{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:200px;
+  height:200px;
+  background-color:green;
+  color:white;
+  font-size:3rem;
+  border:2px solid blue;
+  border-radius:10px;
+}
+.box1{
+  animation-name: rotate-left;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+.box2{
+  animation-name:rotate-right;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+
+}
+
+@keyframes rotate-left{
+  0% {transform:rotate(0deg);}
+  100% {transform:rotate(-360deg);}
+}
+@keyframes rotate-right{
+  0% {transform:rotate(0deg);}
+  100% {transform:rotate(360deg);}
+}
