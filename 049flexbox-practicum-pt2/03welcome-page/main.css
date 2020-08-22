@@ -18,6 +18,12 @@ html,body{
   width:15vw;
   height:15vh;
   fill:gray;
+  animation-name:spin;
+  animation-duration:3s;
+  animation-timing-function:linear;
+  animation-delay:1s;
+  animation-play-state:running;
+  animation-iteration-count:infinite;
   /* border:1px solid red; */
 }
 div{
@@ -59,4 +65,9 @@ button{
 button:hover{
   background-color:#1b5a8c;
   color:white;
+}
+
+@keyframes spin{
+  0%{transform:rotate(0deg);}
+  100%{transform:rotate(360deg);}
 }
