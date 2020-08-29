@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fieldset</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <form action="/" method="post">
+  <fieldset>
+    <legend>Name</legend>
+      <label for="fname">First</label>
+      <input type="text" id="fname" name="fname">
+      <label for="lname">Last</label>
+      <input type="text" id="lname" name="lname">
+  </fieldset>
+
+  <fieldset>
+    <legend>Info</legend>
+      <label for="state">State</label>
+      <select name="state" id="state">
+        <option value="Alabama">Alabama</option>
+        <option value="Arkansas">Arkansas</option>
+        <option value="Alaska">Alaska</option>
+        <option value="Texas">Texas</option>
+        <option value="California">California</option>
+      </select>
+      <label for="zip">Zip</label>
+      <input type="text" id="zip" name="zip">
+  </fieldset>
+  <input type="submit" id="submit" name="submit">
+  </form>
+
+</body>
+</html>

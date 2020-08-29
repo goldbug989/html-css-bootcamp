@@ -1,0 +1,63 @@
+html,body,div{
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+}
+html{
+  font-family: 'Roboto', sans-serif;
+}
+header h1{
+  text-align:center;
+  font-size:2rem;
+}
+nav div{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items:center;
+  margin-bottom:4vh;
+}
+div span{
+  width:20vw;
+  border-top:1px solid gray;
+  margin:0 2vw;
+}
+div a{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding:5px 10px;
+  margin:0 1vw;
+  border:transparent;
+  border-radius:4px;
+  background-color:lightgray;
+  color:black;
+  font-size:.8rem;
+}
+.contain{
+  width:80vw;
+}
+.banner{
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+  align-items: center;
+  height:80vh;
+  width:100%;
+  background-image:url("images/fam.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  font-family:serif;
+  color:white;
+}
+.banner h1{
+  font-size:4rem;
+}
+#subtitle{
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: space-around;
+  align-items:center;
+}
