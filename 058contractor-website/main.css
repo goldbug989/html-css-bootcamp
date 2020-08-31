@@ -1,4 +1,4 @@
-html,body,div{
+html,body,div,figure,p,h1,h2{
   margin:0;
   padding:0;
   border:0;
@@ -36,23 +36,78 @@ div a{
   color:black;
   font-size:.8rem;
 }
-.contain{
-  width:80vw;
+
+figure{
+  display:flex;
+  justify-content: center;
+  align-items:center;
 }
-.banner{
+figcaption{
+  display:flex;
+  flex-flow:column wrap;
+  justify-content: center;
+  align-items:center;
+}
+figcaption h1{
+  text-align:center;
+  padding-top:60px;
+  padding-bottom:30px;
+  margin:0;
+}
+h3{
+  font-family:'Roboto',sans-serif;
+  text-align:center;
+  max-width:492px;
+  line-height:35px;
+  letter-spacing:.1em;
+}
+section{
+  display:flex;
+  justify-content: center;
+  padding-left:75px;
+  padding-right:75px;
+}
+article{
+  display:flex;
+  flex-direction:column;
+  max-width: 1000px;
+}
+article h1, article h2{
+  font-family:'Roboto',sans-serif;
+  font-size:26px;
+  font-weight:normal;
+  padding:.3em 0;
+}
+article p{
+  padding-bottom:10px;
+  font-size:15px;
+  line-height:19px;
+}
+aside{
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-image{
   display:flex;
   flex-flow:column nowrap;
   justify-content: center;
   align-items: center;
-  height:80vh;
+  height:600px;
   width:100%;
-  background-image:url("images/fam.jpg");
+  background:url("images/fam.jpg");
   background-position:center;
   background-repeat:no-repeat;
+  background-size:cover;
   font-family:serif;
   color:white;
 }
-.banner h1{
+.main-image h1{
+  display:flex;
+  justify-content: center;
+  align-items: center;
   font-size:4rem;
 }
 #subtitle{
@@ -60,4 +115,44 @@ div a{
   flex-flow:column nowrap;
   justify-content: space-around;
   align-items:center;
+}
+.book-appointment{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  font-family:'Roboto', sans-serif;
+  width:220px;
+  height:38px;
+  text-decoration:none;
+  font-size:15px;
+  font-weight:bolder;
+  color:white;
+  background-color:red;
+}
+.centers-button{
+  padding:0;
+  align-self:center;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+#learn{
+  color:black;
+}
+.flex-column{
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: flex-start;
+  align-items:center;
+}
+.divider{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin-top:20px;
+  margin-bottom:40px;
+
+}
+.divider span{
+  width:850px;
+  border-bottom:1px solid lightgray;
 }
