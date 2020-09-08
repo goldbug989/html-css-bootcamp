@@ -7,9 +7,15 @@ html,body,div,figure,p,h1,h2{
 html{
   font-family: 'Roboto', sans-serif;
 }
+header{
+  margin-top:30px;
+  margin-bottom:20px;
+}
 header h1{
   text-align:center;
-  font-size:2rem;
+  font-size:2.4rem;
+  margin-bottom:15px;
+  letter-spacing: .05em;
 }
 nav div{
   display:flex;
@@ -89,6 +95,42 @@ aside{
   justify-content: space-around;
   align-items: center;
 }
+table{
+  margin-bottom:20px;
+}
+thead {
+  background: #395870;
+  color: #fff;
+  padding:5px;
+}
+td{
+  border: 1px solid #cecfd5;
+  padding:5px;
+}
+tbody tr:nth-child(even){
+  background:#f0f0f2;
+}
+tfoot{
+  font-size:.9em;
+}
+footer{
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:10px;
+  font-size:1em;
+}
+footer a{
+  text-decoration: none;
+}
+
+a:hover{
+  background-color:#ff4a4a;
+}
+.hover-gray:hover{
+  background-color:#e8e4e4;
+}
 
 .main-image{
   display:flex;
@@ -104,12 +146,34 @@ aside{
   font-family:serif;
   color:white;
 }
-.main-image h1{
+.aboutus-image{
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+  align-items: center;
+  height:650px;
+  width:100%;
+  background:url("images/us_left_web_30.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  font-family:serif;
+  color:white;
+}
+.main-image h1 {
   display:flex;
   justify-content: center;
   align-items: center;
   font-size:4rem;
 }
+#about-us{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:4rem;
+  padding-bottom:0;
+}
+
 #subtitle{
   display:flex;
   flex-flow:column nowrap;
@@ -155,4 +219,31 @@ aside{
 .divider span{
   width:850px;
   border-bottom:1px solid lightgray;
+}
+.bold{
+  font-weight:900;
+  text-align:center;
+}
+#callus{
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+  align-items:center;
+  color:red;
+}
+.phone a{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color:inherit;
+  color:inherit;
+  font-size:1.5rem;
+}
+.phone a:hover{
+  background-color:none;
+  color:#f76055;
+}
+footer a:hover{
+  background-color:transparent;
+  color:red;
 }
