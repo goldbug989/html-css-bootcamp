@@ -1,6 +1,162 @@
-html,body,div{
-  marign:0;
+html,body,div,ul{
+  margin:0;
   border:0;
   padding:0;
   box-sizing:border-box;
+}
+body{
+  color:white;
+  font-size:1.5rem;
+}
+#atf{
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height:100vh;
+  width:100%;
+  background-image:url(images/g_s_03_five.jpg)
+}
+header{
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  height:10vh;
+}
+#hashtag{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:25vw;
+  height:100%;
+
+}
+#hashtag h2{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:3vw;
+  width:100%;
+}
+#sign-in{
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+  align-items: center;
+  width:20vw;
+  height:100%;
+  font-size:1.5rem;
+
+}
+#sign-in h3{
+  font-size:1rem;
+}
+#sign-in button{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  font-size:1.8rem;
+  padding:10px 30px;
+  background-color:transparent;
+  font-size:1rem;
+  color:white;
+  border:1px solid white;
+  border-radius:4px;
+}
+#sign-in button:hover, ul li a:hover{
+  background-color:lightgray;
+}
+#banner{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:28vw;
+  margin:200px 0 0 0;
+  text-align:center;
+
+}
+#banner a{
+  font-family:sans-serif;
+  font-size:4.5rem;
+  text-decoration: none;
+  color:white;
+}
+#banner a:hover{
+  color:red;
+}
+#btn-main{
+  margin: 0;
+  height:4vh;
+  width:13vw;
+  font-size:.8vw;
+  color:white;
+  background-color:red;
+  border:transparent;
+  border-radius:5px;
+}
+
+
+p{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:20vh;
+  width:50vw;
+  text-align: center;
+  font-family: 'Short Stack', cursive;
+  font-size:1vw;
+  line-height:1.6;
+}
+#create{
+  display:none;
+}
+#become{
+  display:none;
+}
+#find{
+  display:none;
+}
+footer{
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+nav{
+  padding-left: 10px;
+  padding-right:10px;
+  padding-bottom:20px;
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: center;
+  align-items: center;
+  width:75vw;
+  height:10vh;
+}
+nav ul{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+}
+ul li{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:30%;
+}
+ul li a{
+  margin:0 40%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  color:white;
+  text-decoration: none;
+  font-family:sans-serif;
+  letter-spacing:.1em;
+
 }
