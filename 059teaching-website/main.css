@@ -99,7 +99,7 @@ header{
 
 
 p{
-  display:flex;
+  display:none;
   justify-content: center;
   align-items: center;
   margin-top:20vh;
@@ -109,14 +109,13 @@ p{
   font-size:1vw;
   line-height:1.6;
 }
-#create{
+//class for script, show, noshow
+.no-show{
   display:none;
 }
-#become{
-  display:none;
-}
-#find{
-  display:none;
+.show{
+  display:flex;
+
 }
 footer{
   display:flex;
